@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="motoman_sia20d">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import motoman_sia20d urdf file -->
+    <xacro:include filename="$(find motoman_sia20d_support)/urdf/sia20d.urdf" />
+
+</robot>
